@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+#kakao,#naver{
+width: 65px;
+height: 27px;
+text-align: left;
+text-decoration: none;
+padding-top: 2px;
+/* border: solid grey 2px; */
+}
+#insta{
+    width: 93px;
+    height: 27px;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 2px;
+    /* border: solid grey 2px; */
+    }
+h1{ font-size:50px;
+    font-family: 'Titillium Web', sans-serif;
+}
+#fullbody{width: 1000px;height: 1000px;}
+#grid{display:grid;
+    width: 1000px;
+   padding-bottom: 15px;
+    border-bottom: solid grey 1px;
+    grid-template-columns:150px 1fr 80px 80px 68px 67px 110px}
+#grid_2{display:grid;
+        grid-template-columns: 150px 1fr}
+#h3_1{
+    text-align: center;
+    border: none;
+    margin:1px;
+   padding:0; 
+   font-size:50px;
+}
+b{
+    color: lightcoral;
+}
+li{
+    list-style: none;
+    border-bottom: dotted 1px #ddd;
+    padding: 12px 10px 9px;
+}
+#n1,.em{
+    width: 650px;
+    padding: 50px 20px 50px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    line-height: 180%;
+    word-break: break-all;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    
+}
+.code{
+    background: rgba(27, 31, 35, 0.05);
+    padding: 0.2em 0.4em;
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+}
+.code span{
+    font-size: 15px;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a.red{
+    
+    color: red;
+}
+.drag:hover{
+    background-color: rgba(121, 207, 241, 0.945);
+
+}
+h4{
+    margin-top: 7px;
+  margin-bottom: 7px;
+}
+h4:hover{
+    background-color: khaki;
+    color: red;
+    border-bottom: 1px  dotted rgb(0, 0, 0) ;
+    
+}
+details{list-style-image: none;
+    
+}
+#ani{
+    animation-name: test;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+.an2{
+    animation-name: blue;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes test{
+    from {color: black;}
+
+    to{color: crimson;}
+ }
+ @keyframes blue{
+     trom{color: black;}
+     to{color: deepskyblue;}
+ }
+ @media(max-width:800px){
+     #grid,#grid_2{
+         display: block;
+
+     }
+     #h3_1{
+     display: none; 
+    }
+#ba{
+    display:none;
+}
+ }

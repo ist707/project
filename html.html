@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="head.css">
+<html lang="ko">
+    <head>
+    <meta charset="utf-8">
+    <title>HTML</title>        
+    </head>
+    <body>
+        <div id="fullbody">
+     <!--해더부분--><div id="header">
+                      <!-- 배너로고 부분 -->
+                        <div id="grid" role="banner">
+                        <a href="main.html"><div><img src="dd/44.PNG" alt=""  width="150px"></div></a>
+                        <div><h3 id="h3_1" class="an2"> HTML Project</h3></div>
+                        <!-- 친구추가 로고 -->
+                        <div id="ani" style="font-weight: 900;">친구추가 :</div>
+                        <!-- 카카오톡 연동 -->
+                        <div id="kakao" class="drag">  <a href="https://open.kakao.com/o/smQxWTFc"> <img src="dd/kakaoicon-01.jpg" width="20px" alt="카카오톡 친구추가">Kakao </a>
+                        </div>
+                        <!-- 네이버블로그 연동 -->
+                        <div id="naver" class="drag"><a href="https://m.blog.naver.com/wjd7517"><img src="dd/naver_v.PNG" width="20px" alt="네이버블로그">NBlog</a>
+                        </div>
+                        <!-- 인스타 연동 -->
+                        <div id="insta" class="drag"><a href="https://www.instagram.com/invites/contact/?i=hvv1hids1twy&utm_content=1c3k6ut"><img src="dd/insta_b.PNG" alt="인스타" width="20px">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+        <div id="grid_2">
+    <!-- 목차 -->  <div style="border-right: solid gray 1px; ">
+      <details open  >
+        <summary><span style="font-size: 17px; font-weight: 800;">이론</span></summary> <div style="background-color:snow;">
+        <!-- html -->
+          <a href="html.html" class="red">
+         <H4>HTML 이란?</H4></a>
+        <!-- css -->
+          <a href="css.html"><h4>CSS 란</h4></a>
+       <!-- javascript -->
+          <a href="javascript.html"> <h4>javascript란</h4></a><hr>
+        </div>
+      </details>
+      <details> 
+        <summary><span style="font-size: 17px;">HTML태그</span></summary>
+        <div style="background-color:snow;">
+        <a href="p.html"><h4>P태그</h4></a>
+        <a href="li.html"><h4>li태그</h4></a>
+      </details> 
+      </div>
+    <!-- 내용 --><div class="em">
+         <!-- 도입부 -->
+        <div class="code">
+            <h1 style="text-align: center; font-size: 30px;">HTML 이란 무엇인가?</h1>
+        <B>HTML (Hypertext Markup Language,하이퍼텍스트 마크업 언어)</B>는 프로그래밍 언어는 아니고, 우리가 보는 웹페이지가 어떻게 구조화되어 있는지 브라우저로 하여금 알 수 있도록 하는 마크업 언어입니다. 이는 개발자로 하여금 복잡하게도 간단하게도 프로그래밍 할 수 있습니다. HTML은 elements로 구성되어 있으며, 이들은 적절한 방법으로 나타내고 실행하기 위해 각 컨텐츠의 여러 부분들을 감싸고 마크업 합니다. tags 는 웹 상의    다른 페이지로 이동하게 하는 하이퍼링크 내용들을 생성하거나, 단어를      강조하는 등의 역할을 합니다.  예를들어,다음의 내용을 봅시다.
+        </div>
+        <br><hr><br>
+        <!-- 1 -->
+        <div class="code">
+        <strong>1. HTML의 구조</strong><br>
+        : 브라우저에게 HTML 코드가 해당 태그 내부에 존재한다고 알려준다. <br>
+        : 주로 외부 소스를 참조해야할때 사용하곤 한다. <br>
+        : 브라우저는 이 태그에 포함되어 있는 내용들을 화면에 보여주게 된다.
+        </div>
+        <!-- 2 ~ 2-1-->
+        <br><hr><br><div class="code">
+     <strong>2. HTML의 문법</strong><br> 
+        2.1 요소 (Element)
+        HTML 요소는 시작 태그와 종료 태그 그리고 그 사이에 위치한 콘텐츠로 구성된다. <br><br>
+
+        <strong>&lt;<span>start tag</span>&gt;content&lt;<span>/end tag</span>&gt;</span></strong><br><br>
+        <strong>시작 태그 (start tag)</strong> : 어떤 태그를 사용하는지 명시 <br>
+        <strong>콘텐츠 (contents) </strong>: 해당 태그가 적용되기를 바라는 텍스트 문구 <br>
+
+        <strong>종료 태그 (end tag) </strong> : 해당 태그가 적용되는 끝 지점을 명시 <br></div><br><hr>
+
+        <div class="code">
+        <strong>2.2 Attribute (속성)</strong>:
+        HTML에게 추가적 정보나 명령을 받을수있게 정보들을 전달해주는것 <br>
+        <br>&lt;<span>img src = "html.png"</span>&gt;<br><br>
+        <span>src</span>: Attribute Name (속성명) <br>
+        <span>html.png</span> : Attribute Value (속성값) 
+        <br><br><hr></div> <br>
+        <div>
+        <div class="code"><strong>1.<span>&lt;DOCTYPE html&gt;</span></strong> : 문서 형식 정의 태그는 출력할 웹 페이지의 형식을 브라우저에게 전달한다. 문서의 최상위에 위치해야 하며 대소문자를 구별하지 않는다.</div> <br>
+        <div class="code">2.&lt;<span>html</span>&gt; : 전체 HTML 문서를 감싸는 태그, 브라우저에게 HTML 코드가 해당 태그 내부에 존재한다고 알려준다. 하나만 존재해야 하고 HTML 바깥에 DOCTYPE을 제외한 다른 태그가 있으면 안 된다.</div><br>
+        <div class="code">3.&lt;<span>head</span>&gt; : HTML 문서에 대한 정보를 나타내는 부분이며 주로 외부 소스를 참조해야 할 경우 사용한다. 하나만 존재해야하고, HTML 바로 아래에 있어야한다.</div> <br>
+        <div class="code">4.&lt;<span>body</span>&gt; : HTML 문서에서 실제적으로 보여지는 부분이며 하나만 존재해야 하고, html 바로 아래, head 다음에 위치해야 한다.</div><br><br>
+        <div class="code">
+        <strong style="font-size: 20px;">3. 상대경로와 절대경로</strong><br><br>
+
+        <div class="code">3.1 상대경로 (Relative)
+        <span> index.html </span>:
+        같은 파일 시스템 구조상의 위치를 표현한다.
+        주로 웹사이트 내부의 자료로 연결할 때 사용</div><br>
+
+        <div class="code"><strong>3.2 절대경로 (Absolute)</strong>
+        https://google.com/index.html
+        전체 인터넷을 기준으로 해당 자료의 위치를 표현한다.
+        주로 외부 웹페이지로 연결할 때 사용</div>
+                <br></div>
+            
+            </div> 
+    </div>   
+    </div>
+                </div>
+    
+    </body>
+    
+
+</html>
